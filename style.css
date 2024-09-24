@@ -1,0 +1,26 @@
+body {
+    background-color:darkgoldenrod;
+}
+h1 {
+    text-align: center;
+}
+.diceBox, .buttonBox {
+    padding-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.buttonBox {
+    gap:250px !important;
+}
+button {
+    padding: 20px;
+    height: 80px;
+}
+#left {
+    filter: grayscale(100%) saturate(100%)
+}
+#right {
+    filter: invert() grayscale(200%) contrast(200%) saturate(100%)
+}
